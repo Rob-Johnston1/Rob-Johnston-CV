@@ -10,7 +10,12 @@ body{
     display:flex;
 }
 
-.header{
+.dark-mode {
+    background-color: black;
+    color:white;
+}
+
+.name{
     height:150px;
     max-width: 80%;
     min-width: 405px;
@@ -22,8 +27,24 @@ body{
     max-width:70%;
 }
 
+.core-content{
+    flex:3;
+}
+
+@media (max-width: 800px){
+    .whitespace{
+        max-width: 300px;
+    }
+    .sidenav {
+        overflow-x: hidden;
+        padding: 8px;
+        width: 150px;
+      }
+}
+
 .whitespace{
     max-width: 300px;
+    flex:1;
 }
 
 .sidenav {
@@ -77,7 +98,6 @@ h3{
 }
 
 .content{
-    font-family: Krub;
     padding:15px;
     border-radius: 5px 40px 5px;
     box-sizing: border-box;
