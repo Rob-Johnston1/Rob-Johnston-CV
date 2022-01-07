@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rob Johnston</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@200&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div class="column whitespace">
+      <div class="sidenav">
+        <h3>MENU</h3>
+        <ul>
+          <a href="#title"><li>Home</li></a>
+          <a href="#about-me"><li>About Me</li></a>
+          <a href="#links"><li>Links</li></a>
+          <a href="#education"><li>Education</li></a>
+          <a href="#employment"><li>Employment History</li></a>
+          <a href="#hobbies"><li>Hobbies, Interests and Achievements</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="column">
+      <div id="title" class="header coral content">
+        <h1>Rob Johnston - Delivery Manager</h1>
+      </div>
+      <div class="content right-box mint" id="about-me">
+        <h3>About Me</h3>
+        <p>I currently work at EY as a Delivery Manager. I am passionate about using Agile methodologies and I am experienced in Scrum and Kanban.</p>
+        <p>I began my career as a Business Analyst for a commodities trading platform. I was commended for my relationship management with clients and my initiative to improve internal processes.</p>
+      <!--I am a comment-->
+        <p>I studied Biomedical Sciences, specialising in Neuroscience at The University of Edinburgh. I then pursued a masters degree in Cognitive and Decision Sciences at UCL. 
+      Both my undergraduate and masters degrees have emphasised to me the importance of a people-focused approach to software development.</p>
+      </div>
+      <div class="content left-box apple" id="links">
+        <h3>Links</h3>
+        <div class="links">
+          <span class="logos"><a href="https://www.linkedin.com/in/robert-johnston-38ba1253/">
+            <img class="small-logo"
+          src="./images/LinkedIn.png"
+          alt="LinkedIn Profile"></a></span>
+          <span class="logos"><a href="https://github.com/Rob-Johnston1">
+            <img class="small-logo"
+          src="./images/GitHub.png"
+          alt="GitHub Profile"></a></span>
+      </div> 
+      </div>
+      <div class="content left-box lilac" id="employment">
+        <h3>Employment History</h3>
+        <p>
+          <ul>
+            <li><h4>EY - Delivery Manager</h4></li>
+            <h5><em>Oct 2021 - Present</em></h5>
+            <p>Responsibilities Include:</p>
+            <ul>
+              <li>Leading the scrum ceremonies as scrum master for two product teams</li>
+              <li>Ensuring team adherence to agile methodologies</li>
+              <li>Working with product owners to balance client priorities with team capacity</li>
+              <li>Encouraging team improvement through retrospectives</li>
+              <li>Budgeting and other project management tasks</li>
+              <li>Engaging team members and ensuring high team morale</li>
+            </ul>
+            <li><h4>Planlogic - Product Support Manager</h4></li>
+            <h5><em>Oct 2017 - Mar 2020</em></h5>
+            <p>Responsibilities Include:</p>
+              <ul>
+                <li>Leading the daily stand-ups as scrum master</li>
+                <li>Ensuring team adherence to agile methodologies</li>
+                <li>Exploring and implementing internal development process improvements, e.g. automation</li>
+                <li>Leading sprint planning and sprint retrospective sessions and ensuring their success</li>
+                <li>Developing an onboarding process for new employees</li>
+                <li>Creating and maintaining manual regression testing packs</li>
+                <li>Prioritizing the backlog across multiple clients and managing team’s capacity</li>
+                <li>Continuing my role as Business Analyst and main point of contact for our client, Gunvor</li>
+              </ul>
+              <p>Skills developed:</p>
+              <ul>
+                <li>Programming languages, most notably SQL, Python and VBA</li>
+                <li>Deep understanding of the implementation of agile methodologies</li>
+                <li>Power BI, Visual Studio, Excel, SSMS, Azure DevOps, Git</li>
+                <li>Communication skills via interactions with clients and the development team</li>
+              </ul>
+            <li><h4>Planlogic - Business Analyst</h4></li>
+            <h5><em>Mar 2020 - Oct 2021</em></h5>
+            <p>Responsibilities Include:</p>
+            <ul>
+              <li>Gathering and analysing any new business requirements</li>
+              <li>Raising features and user stories in Azure DevOps</li>
+              <li>Leading UAT functions and production deployments</li>
+              <li>Rigorously testing new functionality and bug fixes</li>
+              <li>Creating new automated tests for new functionality</li>
+              <li>Investigating Production issues and co-ordinating an effective response to ensure front-office trading continued to run smoothly</li>
+              <li>Designing new screens, buttons, functions using wireframes</li>
+            </ul>
+            <p>Skills developed:</p>
+            <ul>
+              <li>Programming languages, most notably SQL and Python</li>
+              <li>Deep understanding of the implementation of agile methodologies</li>
+              <li>Visual Studio, Power BI, Git, Excel, SSMS, Azure DevOps, LucidChart, Balsamiq</li>
+              <li>Communication skills via interactions with clients and the development team</li>
+            </ul>
+          </ul>
+        </p>
+      </div>
+      <div class="content right-box pink" id="education">
+      <h3>Education</h3>
+        <ul>
+          <li><h4>UCL - MSc Cognitive and Decision Sciences</h4></li>
+              <h5><em>Oct 2016 - Oct 2017</em></h5>
+              <ul>
+                <li>This program studies the cognitive processes and representations underlying human thought, knowledge and decision-making. 
+                  It integrates a wide range of disciplines and methodologies, with the core assumption that human cognition and choice are computational processes, implemented in neural hardware.</li>
+                <p>Skills developed:</p>
+                <li>A comprehensive understanding of cognitive processes underlying human behaviour and decision making in various settings, e.g. politics, medicine, education, commerce & finance</li>
+                <li>Data analysis of large data sets, both qualitative and quantitative, and appropriate statistical analysis</li>
+                <li>Familiarity with programming language Python and R, and use of SPSS and GUIs</li>
+                <li>Communication, honed through numerous essays and presentations</li>
+                <p>Notable Modules: Applied Decision-Making, Current Issues in Attitude Research, Knowledge Learning and Inference, Statistics, Programming for Psychologists</p>
+              </ul>
+            <li><h4>The University of Edinburgh - BSc Biomedical Sciences (Neuroscience)</h4></li>
+              <h5><em>Sept 2011 - Jun 2015</em></h5>
+              <p>Skills developed:</p>
+              <ul>
+                <li>A comprehensive understanding of biological mechanisms underpinning brain development and cognition.</li>
+                <li>A logical and methodical approach to problem solving in scientific research, particularly important in experimental design projects</li>
+                <li>Analytical skills acquired through scrutiny of published data for academic critiques</li>
+                <li>An ability to communicate scientific information, required in numerous essays, critiques and oral presentations</li>
+                <li>Proficiency in Microsoft Office, and experience with MATLAB and Graphpad</li>
+                <p>Notable Modules:
+                General Neuroscience, Neurobiology of Cognition, Developmental and Clinical Neuroscience, Mechanisms of Brain Development, Biomedical Sciences and Psychology 1</p>
+              </ul>
+          </ul>
+        </div>
+        <div class="content left-box coral" id="hobbies">
+          <h3>Hobbies, Interests and Achievements</h3>
+          <h5>Software Development</h5>
+          <p>In Progress: The Odin Project</p> 
+        </div>
+    </div>
+    <div class="column whitespace"></div>
+  </body>
+ </html>
+
